@@ -1,0 +1,54 @@
+name: shob_bazaar
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  circle_nav_bar: ^2.2.0
+  animated_notch_bottom_bar: ^1.0.3
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.4
+  pin_code_fields: ^8.0.1
+  carousel_slider: ^5.0.0
+  http: ^1.3.0
+  rating_dialog: ^2.0.4
+  image_picker: ^1.1.2
+  package_info_plus: ^8.3.0
+  provider: ^6.1.2
+  path_provider: ^2.1.5
+  cached_network_image: ^3.4.1
+  shared_preferences: ^2.5.2
+  url_launcher: ^6.3.1
+  fluttertoast: ^8.2.12
+  google_maps_flutter: ^2.10.1
+  flutter_typeahead: ^4.2.1
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+  flutter_keyboard_visibility: ^5.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  min_sdk_android: 21
